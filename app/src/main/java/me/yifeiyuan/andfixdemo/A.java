@@ -21,15 +21,15 @@ import android.util.Log;
 
 /**
  * the class will be fix
- * 
+ * <p/>
  * copy {@link Fix} to here, and then generate patch (.apatch file)
- * 
+ *
  * @author sanping.li@alipay.com
- * 
  */
 public class A {
-	String s = "s";
-//	private static O o = new O("a");
+    String s = "s";
+
+    //	private static O o = new O("a");
 //	static int i = 10;
 //
 //	public static String a(String str) {
@@ -43,29 +43,29 @@ public class A {
 //		return 0;
 //	}
 //
-	public int getI() {
-		return i;
-	}
+    public int getI() {
+        return i;
+    }
 
-	private static O o = new O("fix");
-	static int i = 11;
+    private static O o = new O("fix");
+    static int i = 11;
 
-	public static String a(String str) {
-		Log.d("qq", str);
-		Log.i("euler", "fix succes");
-		return "b";
-	}
+    public static String a(String str) {
+        Log.d("qq", str);
+        Log.i("euler", "fix succes");
+        return "b";
+    }
 
-	public int b(String s1, String s2) {
-		Log.e("euler", s1);
-		Log.e("euler", i + "==" + c());
-		Log.i("euler", "fix succes" + s);
-		Log.i("euler", o.s);
-		return 0;
-	}
+    public int b(String s1, String s2) {
+        Log.e("euler", s1);
+        Log.e("euler", i + "==" + c());
+        Log.i("euler", "fix succes" + s);
+        Log.i("euler", o.s);
+        return 0;
+    }
 
-	private String c() {
-		return "a";
-	}
+    private String c() {
+        return "a";
+    }
 
 }
