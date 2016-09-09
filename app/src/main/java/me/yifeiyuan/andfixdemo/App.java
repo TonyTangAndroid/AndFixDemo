@@ -30,8 +30,8 @@ import java.io.IOException;
 public class App extends Application {
 
     private static final String TAG = "App";
-    private PatchManager mPatchManager;
     private static final String APATCH_PATH = "/out.apatch";
+    private PatchManager mPatchManager;
 
     @Override
     public void onCreate() {
